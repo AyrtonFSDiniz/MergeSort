@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/obj/Debug/net7.0/MergeSort.AssemblyInfo.cs
+/obj/Debug/net7.0/MergeSort.AssemblyInfoInputs.cache
