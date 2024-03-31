@@ -13,24 +13,19 @@
             {
                 int meio = ((primeiraPosicao + ultimaPosicao) / 2);
 
-
+                Extensao.ExibindoAlgoritmo(array, primeiraPosicao, ultimaPosicao, meio);
 
                 Sort(array, primeiraPosicao, meio);
 
-
-
                 Sort(array, meio + 1, ultimaPosicao);
 
-
-
                 Merge(array, primeiraPosicao, meio, ultimaPosicao);
-
-
-
 
             }
 
         }
+
+        
 
         private static bool ValidacaoDosParametros(List<int> array, int primeiraPosicao, int ultimaPosicao)
         {

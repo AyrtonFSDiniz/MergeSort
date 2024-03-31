@@ -20,14 +20,6 @@ while ((input = Console.ReadLine()) != "fim")
     }
 }
 
-Console.WriteLine($"### Valores iniciais para exemplo do MergeSort ###");
-Console.WriteLine("\n");
-
-for (int i = 0; i < arrayTeste.Count(); i++)
-{
-    Console.WriteLine($"{i + 1}º: {arrayTeste[i]}");
-}
-
 LogicaMergeSort.Executar(arrayTeste);
 
 Extensao.ExibirElementos(arrayTeste);

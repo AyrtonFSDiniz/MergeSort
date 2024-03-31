@@ -12,5 +12,16 @@
                 Console.WriteLine($"{i + 1}º: {array[i]}");
             }
         }
+
+        public static void ExibindoAlgoritmo(List<int> array, int primeiraPosicao, int ultimaPosicao, int meio)
+        {
+            Console.WriteLine("\n");
+            Console.WriteLine($"Primeira posição: {primeiraPosicao} - Valor: {array[primeiraPosicao]}");
+            Console.WriteLine("\n");
+            Console.WriteLine($"Posição do meio: {meio} - Valor: {array[meio]}");
+            Console.WriteLine("\n");
+            Console.WriteLine($"Última posição: {ultimaPosicao} - Valor: {array[ultimaPosicao]}");
+            Console.WriteLine("\n");
+        }
     }
 }
