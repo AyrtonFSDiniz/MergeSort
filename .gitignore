@@ -5,3 +5,15 @@
 *.vsidx
 /obj/Debug/net7.0/MergeSort.AssemblyInfo.cs
 /obj/Debug/net7.0/MergeSort.AssemblyInfoInputs.cache
+*.v2
+/.vs/MergeSort/v17/.suo
+/.vs/MergeSort/v17/DocumentLayout.json
+/bin/Debug/net7.0/MergeSort.dll
+/bin/Debug/net7.0/MergeSort.exe
+/bin/Debug/net7.0/MergeSort.pdb
+/obj/Debug/net7.0/ref/MergeSort.dll
+/obj/Debug/net7.0/refint/MergeSort.dll
+/obj/Debug/net7.0/apphost.exe
+/obj/Debug/net7.0/MergeSort.dll
+/obj/Debug/net7.0/MergeSort.pdb
+/obj/Debug/net7.0/MergeSort.sourcelink.json
