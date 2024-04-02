@@ -23,3 +23,7 @@ while ((input = Console.ReadLine()) != "fim")
 LogicaMergeSort.Executar(arrayTeste);
 
 Extensao.ExibirElementos(arrayTeste);
+
+Console.WriteLine("\n");
+Console.WriteLine("Fim do algoritmo Merge Sort.");
+Console.ReadLine();
